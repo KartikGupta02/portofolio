@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Home, User, Code, Briefcase, Mail } from "lucide-react";
+import DownloadButton from "@/components/DownloadButton";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -63,6 +64,8 @@ const Navigation = () => {
                 <span className="ml-2 hidden lg:inline">{item.label}</span>
               </Button>
             ))}
+            <div className="mx-1 h-6 w-px bg-border/50" />
+            <DownloadButton />
           </div>
         </div>
       </nav>
@@ -99,6 +102,9 @@ const Navigation = () => {
                   {item.label}
                 </Button>
               ))}
+              <div className="pt-4">
+                <DownloadButton />
+              </div>
             </div>
           </div>
         )}
