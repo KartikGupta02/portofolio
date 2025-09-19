@@ -6,25 +6,25 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: "💻",
-      skills: ["C", "C++", "JavaScript", "Python", "SQL"],
+      skills: ["C", "C++"],
       color: "bg-primary"
     },
     {
       title: "Web Technologies",
       icon: "🌐",
-      skills: ["HTML", "CSS", "React", "Object-Oriented Programming"],
+      skills: ["HTML", "CSS", "JavaScript", "React"],
       color: "bg-accent"
     },
     {
       title: "Development Tools",
       icon: "🛠️",
-      skills: ["VS Code", "Code Blocks", "PyCharm", "File Handling"],
+      skills: ["VS Code", "Code Blocks", "PyCharm"],
       color: "bg-primary"
     },
     {
       title: "Specialized Skills",
       icon: "🔬",
-      skills: ["Data Structures & Algorithms", "Database Management", "Deep Learning", "YOLO/OpenCV"],
+      skills: ["Data Structures & Algorithms", "Database Management", "SQL", "Object-Oriented Programming"],
       color: "bg-accent"
     }
   ];
